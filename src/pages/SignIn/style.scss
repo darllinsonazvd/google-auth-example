@@ -35,3 +35,18 @@
     background-color: var(--background-light);
   }
 }
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+
+  img {
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+    margin-bottom: 16px;
+  }
+}
